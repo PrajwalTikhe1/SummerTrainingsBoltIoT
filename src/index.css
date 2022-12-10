@@ -1,13 +1,209 @@
-body {
+/*--------------- POPPINS Google Font ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------- GENERAL ---------------*/
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*--------------- MAIN ---------------*/
+.background {
+  background: rgba(0, 0, 0, 0.7)
+    url('https://ik.imagekit.io/2e35v6mja/bg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670618611997');
+  background-size: cover;
+  height: 80vh;
+  filter: opacity(80%);
+  background-blend-mode: darken;
+}
+
+/*--------------- TOPBAR ---------------*/
+.topbar {
+  padding: 10px 0;
+  background: #f0faa7;
+}
+.topbar img {
+  width: 1rem;
+}
+.topbar h6 {
+  text-align: center;
+  margin: 0 0 0 5px;
+}
+
+/*--------------- NAVBAR ---------------*/
+.navbar {
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.navbar img {
+  width: 10rem;
+  filter: opacity(80%);
+  margin-top: 1rem;
+}
+
+/*--------------- SECTION ---------------*/
+section {
+  color: white;
+}
+section h1 {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+section h4 {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/*--------------- PRODUCT ---------------*/
+.product {
+  margin-top: 6rem;
+}
+.product h2 {
+  font-size: 1.28571em;
+  margin-bottom: 5.625rem;
+}
+.product h2::after {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 3px;
+  background: #33856b;
+  margin-top: 20px;
+}
+.product .image {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  background-color: #266576;
+}
+.product .image2 {
+  filter: brightness(102%);
+}
+.product .card {
+  border: 1px solid white;
+  width: 90%;
+}
+.product .card2 {
+  margin-bottom: 20px;
+}
+.product .card3 {
+  border: none;
+  width: 90%;
+}
+.card h5 {
+  font-size: 1.2rem;
+}
+.card h4 {
+  font-size: 1.3rem;
+  color: #949494;
+}
+.soft-head {
+  padding-top: 5.625rem;
+  margin-top: 5.625rem;
+}
+.software {
+  padding-bottom: 5rem;
+}
+
+/*--------------- AWARD ---------------*/
+.award h3 {
+  font-size: 1.625em;
+}
+.award .para-head {
+  font-size: 1.1rem;
+}
+.award p {
+  font-size: 1rem;
+}
+.award h5 {
+  font-size: 1.1em;
+}
+.award button {
+  background: #557b97;
+  border-radius: 0;
+  font-weight: bold;
+  box-shadow: none;
+}
+.award {
+  padding-bottom: 4rem;
+}
+
+/*---------------  FOOTER ---------------*/
+.footer {
+  background: black;
+  padding-bottom: 5rem;
+}
+.footer h5 {
+  font-weight: bold;
+}
+.footer .add {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+.footer .ref {
+  margin-top: 3.5rem;
+}
+.bar {
+  padding: 0.7rem;
+}
+
+/*---------------  WHATSAPP ---------------*/
+.whatsapp {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 95px;
+  right: 75px;
+  z-index: 999;
+  cursor: pointer;
+}
+.whatsapp .chat {
+  background: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.whatsapp button {
+  display: inline-block;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/*---------------  MOB VIEW ---------------*/
+@media screen and (max-width: 900px) {
+  .award .micro {
+    width: 95%;
+  }
+  .award h3 {
+    margin-top: 2rem;
+  }
+  .background h1 {
+    font-size: 3rem;
+  }
+  .background h4 {
+    font-size: 1.2rem;
+  }
+}
+
+/*---------------  WEB VIEW ---------------*/
+@media screen and (min-width: 901px) {
+  .award .micro {
+    width: 80%;
+  }
 }

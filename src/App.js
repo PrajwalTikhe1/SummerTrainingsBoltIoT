@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidenav from './components/sidenav'
+import Main from './components/main'
+import Hardware from './components/hardware'
+import Software from './components/software'
+import Award from './components/award'
+import Footer from './components/footer'
+import Whatsapp from './components/whatsapp'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Sidenav />
+      <Main />
+      <Hardware />
+      <Software />
+      <Award />
+      <Footer />
+      <Whatsapp />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

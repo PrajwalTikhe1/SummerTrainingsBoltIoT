@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Summer Trainings | Bolt IoT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Explore different domains such as Information Technology, IoT, Robotics and AI ML, and make the most of your summer by enrolling in trainings that can help you have a better future.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+[Summer Trainings | Bolt IoT](https://summertrainingsboltiot.web.app)
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Frontend:** React JS, JavaScript, BootStrap
+2. **Hosting:** Goggle Firebase
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Preview
 
-### `npm test`
+**Main**
+![Main](https://user-images.githubusercontent.com/72973991/206877301-f9b29bf6-1354-48b7-8e1f-ab0272692927.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Hardware**
+![Hardware](https://user-images.githubusercontent.com/72973991/206877354-a2c65511-fe06-4593-80de-143b98faa879.png)
 
-### `npm run build`
+**Software**
+![Software](https://user-images.githubusercontent.com/72973991/206877366-564bcffb-12d4-4a18-aaff-bb59505b9f01.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Awards**
+![Awards](https://user-images.githubusercontent.com/72973991/206877370-7ad41ff1-2321-49a7-a12c-84048b5082bc.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Footer**
+![Footer](https://user-images.githubusercontent.com/72973991/206877374-2236f81a-7649-4865-9b33-502b48c2f343.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Requirements
 
-### `npm run eject`
+Requirements to fork this repo are:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Strong knowledge of React JS
+2. Understanding about BootStrap
+3. Basic knowledge in JavaScript
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone/Download the repo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install Spin The Wheel Game with npm
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Run development Server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run start
+```
 
-### Code Splitting
+## Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To build this project for production
 
-### Analyzing the Bundle Size
+```bash
+  npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+To deploy this project on hosting (Heroku, Firebase, Netlify, AWS, DigitalOcean)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm run deploy
+```
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
